@@ -1,12 +1,14 @@
-import ToDo from "./components/ToDo"
+import Header from "./components/Header";
+import ToDo from "./components/ToDo";
+import "./App.css";
 
 function App() {
-
   return (
     <div>
-      <ToDo/>
+      <Header />
+      <ToDo />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
