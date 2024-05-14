@@ -1,0 +1,34 @@
+.todoForm {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.todoInput {
+  border-radius: 10px;
+  border: none;
+  height: 40px;
+  width: 400px;
+  font-size: 1.25em;
+  padding: 0.5rem 1rem;
+  color: var(--bg-green-accent);
+}
+
+.todoInput::placeholder {
+  color: rgba(40, 54, 24, 0.7);
+}
+
+.todoInput:focus {
+    outline: none;
+}
+
+.todoButton {
+    width: 100px;
+    border-radius: 10px;
+    background-color: var(--bg-green-primary);
+    color: #FFFFFF;
+    font-family: inherit;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+}
