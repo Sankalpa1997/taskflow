@@ -3,6 +3,7 @@
 :root {
   --bg-green-primary: #283618;
   --bg-green-accent: #606c38;
+  --bg-green-hover: #98aa5c;
 }
 
 body {
@@ -69,3 +70,4 @@ input[type="submit"] {
   box-shadow: 0px 0px 80px 0px black;
   min-height: calc(80vh - 4rem);
 }
+
