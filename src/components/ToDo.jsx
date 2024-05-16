@@ -7,7 +7,7 @@ export default function ToDo() {
   return (
     <>
       <Form toDos={toDos} setToDos={setToDos} />
-      <ToDoList toDos={toDos} />
+      <ToDoList toDos={toDos} setToDos={setToDos} />
     </>
   );
 }
