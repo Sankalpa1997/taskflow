@@ -22,7 +22,7 @@ export default function ToDoItem({ item, toDos, setToDos }) {
         </span>
       </div>
       <span>
-        <button onClick={() => toDoDelete(item)}>X</button>
+        <button onClick={() => toDoDelete(item)} className={styles.toDoItemButton}>✘</button>
       </span>
     </div>
   );

@@ -24,17 +24,4 @@
 
 .todoButton {
     width: 100px;
-    border-radius: 10px;
-    background-color: var(--bg-green-primary);
-    color: #FFFFFF;
-    font-family: inherit;
-    border: none;
-    font-size: 1em;
-    cursor: pointer;
-}
-
-.todoButton:hover {
-  background-color: var(--bg-green-hover);
-  transition: .1s;
-  color: var(--bg-green-primary);
 }
