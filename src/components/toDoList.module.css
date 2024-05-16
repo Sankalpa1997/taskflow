@@ -1,2 +1,7 @@
 .todoList {
+    background-color: white;
+    border-radius: 20px;
+    margin: 0 2rem !important;
+    padding: 0.5rem !important;
 }
+.todoList:empty {display: none;}

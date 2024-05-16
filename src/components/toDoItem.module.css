@@ -1,15 +1,18 @@
 .toDoItemWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     padding: 1rem;
     background-color: #FFF ;
     border-bottom: 2px solid rgba(40, 54, 24, 0.4);
 }
 
 .toDoItemWrapper:first-child {
-    border-radius: 20px 20px 0 0;
+    /* border-radius: 20px 20px 0 0; */
 }
 
 .toDoItemWrapper:last-child {
-    border-radius: 0 0 20px 20px;
+    /* border-radius: 0 0 20px 20px; */
     border: none;
 }
 
