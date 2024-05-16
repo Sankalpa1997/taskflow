@@ -7,7 +7,7 @@ export default function ToDoItem({ item, toDos, setToDos }) {
   }
   return (
     <div className={styles.toDoItemWrapper}>
-      <div className={styles.toDoItem}>{item}</div>
+      <div className={styles.toDoItem}>{item.name}</div>
       <span>
         <button onClick={() => toDoDelete(item)}>X</button>
       </span>
