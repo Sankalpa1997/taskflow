@@ -1,7 +1,18 @@
 .header {
 }
 
-.header h1 {
-    font-size: 3em;
-    font-weight: 900;
+.headerLogoWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.headerLogoWrapper h1 {
+  font-size: 3em;
+  font-weight: 900;
+}
+
+.headerLogo {
+  width: 5rem;
+  height: 100%;
 }
