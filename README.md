@@ -8,4 +8,4 @@ TaskFlow is a minimalist to-do list application built with React. Designed with 
 - **Responsive Design**: Enjoy a seamless experience on both desktop and mobile devices.
 
 ## Screenshot
-![TaskFlow Screenshot](src/assets/TaskFlow_App_Screenshot.png)
+![TaskFlow Screenshot](src/assets/TaskFlow_App.png)
